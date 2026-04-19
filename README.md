@@ -18,15 +18,15 @@ $$\mathcal{F}_{knot} = \frac{1}{r^2} \left( q^2 - G m^2 + 2i q m \sqrt{G} \right
 
 ---
 
-II. Sub-Atomic & Quantum Phenomena
+## II. Sub-Atomic & Quantum Phenomena
 
-Mass & The Metric Halo: Mass is an emergent property. The topological knot of a charge polarizes the surrounding 6D metric, trapping a localized solvent cage known as a "Metric Halo."
+**Mass & The Metric Halo:** Mass is an emergent property. The topological knot of a charge polarizes the surrounding 6D metric, trapping a localized solvent cage known as a "Metric Halo."
 
-Inertia (The Wave-Center Feedback Loop): A particle at rest or constant velocity maintains a perfectly symmetric convergent wave boundary. When an external force accelerates the particle, the topological knot is physically displaced from this symmetric center. The 6D metric fluid violently attempts to push the knot back into the dead-center of the wave geometry to restore topological equilibrium. This wave-centering restoring force is Inertia.
+**Inertia (The Wave-Center Feedback Loop):** A particle at rest or constant velocity maintains a perfectly symmetric convergent wave boundary. When an external force accelerates the particle, the topological knot is physically displaced from this symmetric center. The 6D metric fluid violently attempts to push the knot back into the dead-center of the wave geometry to restore topological equilibrium. This wave-centering restoring force is Inertia.
 
-Wave-Particle Duality (Dual-Cone): A particle exists in two orthogonal cones. The Real Cone (Particle) is localized upon measurement. The Imaginary Cone (Wave) superluminally projects continuous phase-waves.
+**Wave-Particle Duality (Dual-Cone):** A particle exists in two orthogonal cones. The Real Cone (Particle) is localized upon measurement. The Imaginary Cone (Wave) superluminally projects continuous phase-waves.
 
-Entanglement (Phase-Lock): Distance in the Real Cone is an illusion. Entangled particles are geometrically tethered to the exact same Primary Imaginary Momentum Vector in the 6D bulk. When one collapses, the shared topological anchor dictates the other instantly.
+**Entanglement (Phase-Lock):** Distance in the Real Cone is an illusion. Entangled particles are geometrically tethered to the exact same Primary Imaginary Momentum Vector in the 6D bulk. When one collapses, the shared topological anchor dictates the other instantly.
 
 ---
 
