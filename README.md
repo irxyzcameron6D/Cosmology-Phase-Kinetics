@@ -8,23 +8,23 @@ This framework represents a complete paradigm shift in theoretical physics. COSA
 
 # The Evolution of the Nomenclature (The COSAT Lineage)
 
-The COSAT framework has evolved significantly over years of rigorous mathematical and geometric modeling. If you are reviewing earlier publications or foundational proofs, you may encounter previous acronyms. They represent the exact same theoretical lineage, scaled to different scopes of physics:
+*The COSAT framework has evolved significantly over years of rigorous mathematical and geometric modeling. If you are reviewing earlier publications or foundational proofs, you may encounter previous acronyms. They represent the exact same theoretical lineage, scaled to different scopes of physics:*
 
-# COSAT 0.9 (The Foundational Proof): Centric Orbiting Spherical Aggregation Theory
+* # COSAT 0.9 (The Foundational Proof): Centric Orbiting Spherical Aggregation Theory
 
-Scope: The initial proof of concept establishing the discrete, geometric modeling of macroscopic celestial bodies as interacting super-atoms.
+*Scope: The initial proof of concept establishing the discrete, geometric modeling of macroscopic celestial bodies as interacting super-atoms.*
 
-# COSAT 1.0 (Discrete Orbital Mechanics): Complex Orbital Shell Architecture Theory
+* # COSAT 1.0 (Discrete Orbital Mechanics): Complex Orbital Shell Architecture Theory
 
-Scope: The refinement of the 36-state electron node distributions and the formal derivation of the 10 
+*Scope: The refinement of the 36-state electron node distributions and the formal derivation of the 10 
 20
   N residual van der Waals gravity from the 10 
 55
-  N Coulomb baseline.
+  N Coulomb baseline.*
 
-# COSAT 2.0 (The Unified Field): Complex Observable Spacetime Asymmetry Theory
+* # COSAT 2.0 (The Unified Field): Complex Observable Spacetime Asymmetry Theory
 
-Scope: The current and definitive framework. The discrete orbital mechanics were successfully scaled and integrated into a continuous 6D fluid metric, resolving wave-particle duality, inertia, black hole thermodynamics, and the macroscopic expansion of the universe.
+*Scope: The current and definitive framework. The discrete orbital mechanics were successfully scaled and integrated into a continuous 6D fluid metric, resolving wave-particle duality, inertia, black hole thermodynamics, and the macroscopic expansion of the universe.*
 
 ---
 
