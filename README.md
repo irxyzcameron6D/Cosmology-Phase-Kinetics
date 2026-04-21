@@ -100,9 +100,14 @@ In 1919, Arthur Eddington observed that light bends exactly twice as much around
 * **Real Sun (1x) + Imaginary Anti-Sun (1x) = 2x Deflection.** The refractive index of space is doubled by the underlying Dual-Cone geometry, perfectly yielding the Eddington limit.
 
 ### 4. Sub-Luminal Kinematics & Orbital Precession
-In Phase Kinetics, the perceived mass of a gravitational body is dynamic, scaling from its Newtonian baseline ($1x$) to its Eddington limit ($2x$) as a function of velocity ($v \to c$).
-* As a particle accelerates, its Primary Imaginary Momentum Vector ($\vec{P}_{imag}$) tilts into the Imaginary plane to vent thermodynamic phase-exhaust. This topological tilt progressively exposes the particle to the conjugate kinetic shadow of the gravitational body (e.g., the "Anti-Sun" in the Imaginary metric).
-* **The Perihelion Advance of Mercury:** This velocity-dependent exposure perfectly resolves the anomalous precession of Mercury’s orbit without requiring curved spacetime. Because Mercury travels fastest at perihelion, its $\vec{P}_{imag}$ tilt is maximized at its closest approach. Consequently, it senses a greater fraction of the Imaginary Anti-Sun precisely when its velocity is highest. This dynamic deepening of the kinetic shadow, combined with the baseline kinematic Lorentz effect, physically pulls the trajectory into the exact observed rosette advance.
+In Phase Kinetics, velocity is not merely a vector in space; it is the hyperbolic rotation of a particle’s entire complex coordinate system relative to a rest frame. The perceived mass and energy of a gravitational body scale dynamically from a Newtonian baseline ($1x$) to an Eddington limit ($2x$) as a function of this rotation ($v \to c$).
+
+As a particle accelerates, its entire $(R, i)$ topological frame rotates:
+* **Receding (Evanescence):** If a body moves away, its frame rotates toward the Imaginary plane, bleeding its phase-signature into the bulk (macroscopic redshift).
+* **Approaching (Topological Compression):** If a body moves towards an observer, its frame rotates deeper into the Real plane, compressing the metric fluid and maximizing its observable mass/energy profile (macroscopic blueshift).
+
+**The Perihelion Advance of Mercury:**
+This velocity-dependent coordinate rotation perfectly resolves the anomalous precession of Mercury’s orbit without requiring curved spacetime. Because Mercury travels fastest at perihelion (its closest approach), its topological frame undergoes its maximum rotational tilt. Consequently, the planet's coordinate system is optimally aligned to sense the conjugate kinetic shadow of the Imaginary metric (the Anti-Sun). This dynamic deepening of the kinetic shadow at maximum velocity physically pulls the trajectory into the exact observed rosette advance.
 
 ---
 
