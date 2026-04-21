@@ -133,15 +133,15 @@ Heat Death is a mathematical illusion derived from observing only half of the th
 * **The Snap-Back (The Big Bounce):** Eventually, our expanding phase-waves fall below the critical density required to destructively interfere with the outer boundary. The orthogonal phase-lock fails. With the repulsive shield gone, the massive overarching pressure of the 6D bulk fluid catastrophically rushes back in.
 
 ### The Caustic Intersection & The Stern-Gerlach Siphon
-[cite_start]When the macroscopic metric crushes back to the $(0,0)$ origin, the Dual-Cores collide, triggering an inside-out annihilation at the geometric boundary where structural tension diverges to infinity[cite: 103, 104, 213]. 
-* [cite_start]Rather than resulting in total destruction, this extreme boundary interaction generates a macroscopic **Stern-Gerlach Siphon**[cite: 214]. 
-* [cite_start]This localized thermodynamic field acts as an ultimate sorting mechanism, violently separating the untethered $+R$ and $-R$ matter (matter and antimatter) into distinct phase-regions before absolute annihilation can occur[cite: 214]. This naturally and mechanically resolves the Baryon Asymmetry problem.
+When the macroscopic metric crushes back to the $(0,0)$ origin, the Dual-Cores collide, triggering an inside-out annihilation at the geometric boundary where structural tension diverges to infinity. 
+* Rather than resulting in total destruction, this extreme boundary interaction generates a macroscopic **Stern-Gerlach Siphon**. 
+* This localized thermodynamic field acts as an ultimate sorting mechanism, violently separating the untethered $+R$ and $-R$ matter (matter and antimatter) into distinct phase-regions before absolute annihilation can occur. This naturally and mechanically resolves the Baryon Asymmetry problem.
 
 ### The Population Inversion (The Cosmic LASER)
-[cite_start]Standard cosmology attributes the Cosmic Microwave Background (CMB) to the random thermal scattering of photons during Recombination[cite: 226]. Phase Kinetics replaces this chaotic model with a synchronized mechanical origin.
-* [cite_start]Because the universe expands post-bounce as a unified geometric shell, the specific temperature and pressure thresholds are reached almost simultaneously across the macroscopic metric[cite: 227]. 
-* [cite_start]When electrons cascade down into their ground states across the entire shell, they undergo a massive, universe-spanning **Population Inversion**[cite: 228].
-* [cite_start]Rather than a chaotic thermal fog, this state-transition triggers a synchronized burst of stimulated emission[cite: 229]. [cite_start]The early Phase Kinetics universe did not simply glow; it flashed into existence as a highly coherent **Cosmic LASER**[cite: 230]. [cite_start]Over billions of years of thermodynamic free-fall, this coherent emission has been stretched by macroscopic geometric redshift into the ambient microwave static (the CMB) observed today[cite: 231].
+Standard cosmology attributes the Cosmic Microwave Background (CMB) to the random thermal scattering of photons during Recombination. Phase Kinetics replaces this chaotic model with a synchronized mechanical origin.
+* Because the universe expands post-bounce as a unified geometric shell, the specific temperature and pressure thresholds are reached almost simultaneously across the macroscopic metric. 
+* When electrons cascade down into their ground states across the entire shell, they undergo a massive, universe-spanning **Population Inversion**.
+* Rather than a chaotic thermal fog, this state-transition triggers a synchronized burst of stimulated emission. The early Phase Kinetics universe did not simply glow; it flashed into existence as a highly coherent **Cosmic LASER**. Over billions of years of thermodynamic free-fall, this coherent emission has been stretched by macroscopic geometric redshift into the ambient microwave static (the CMB) observed today.
 
 ---
 
