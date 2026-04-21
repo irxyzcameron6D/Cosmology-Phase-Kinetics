@@ -174,6 +174,11 @@ The Phase Kinetics framework relies on re-evaluating the foundational texts of c
 * **Hawking, S. W. (1974).** *Black hole explosions?* Nature.
     * *Context:* The establishment of black hole temperature and evaporation. Phase Kinetics achieves the exact same thermodynamic outcome ($T \propto 1/R$) without relying on virtual particle pair-production, substituting it with the geometric diffraction of 6D metric waves scattering off the 2D Event Horizon shield.
 
+### 4. Justifications For Deviations From the Standard Model
+* **Cameron, D. (2018).** Does the cosmological red shift have a gravitational component? Physics Essays, 31(1), 7–13.
+* **Cameron, D. (2015).** Is the force of gravity a manifestation of the electric force? Physics Essays, 28(4), 529–541.
+* **Cameron, D. (2012).** Is the current estimation of the ratio of dark matter to visible matter the result of a simple miscalculation? Physics Essays, 25(3), 306–314.
+
 ---
 
 ## Appendix A: Phase Kinetics Mathematica Computation (.nb)
