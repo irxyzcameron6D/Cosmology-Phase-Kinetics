@@ -222,23 +222,34 @@ Manipulate[
 
 (* ==================================================================== *)
 (* SECTION II: Thermodynamic Drift (Kinematics)                         *)
-(* Primary Imaginary Momentum Vector (PMV) as Entropy Gradient          *)
+(* Primary Imaginary Momentum Vector (PMV) & The Kinetic Shadow         *)
 (* ==================================================================== *)
 
-EntropyField[x_, y_, shadowMass_] := -shadowMass / Sqrt[x^2 + y^2];
+(* Added a +1 softening parameter to prevent the origin singularity from breaking the 3D render *)
+EntropyField[x_, y_, shadowMass_] := -shadowMass / Sqrt[x^2 + y^2 + 1];
 
-(* FIX: Using '=' instead of ':=' forces the symbolic derivative to calculate immediately *)
 PMV[x_, y_, shadowMass_] = -Grad[EntropyField[x, y, shadowMass], {x, y}];
 
-Print["Vector Plot of the Primary Imaginary Momentum Vector (Thermodynamic Drift):"]
+Print["Phase Kinetics: The Kinetic Shadow & Thermodynamic Drift"]
 Manipulate[
- (* FIX: Evaluate[] ensures the vector field is resolved before Manipulate feeds it numbers *)
- VectorPlot[Evaluate[PMV[x, y, shadowMass]], {x, -10, 10}, {y, -10, 10},
-  VectorColorFunction -> "TemperatureMap",
-  VectorScale -> Medium, 
-  VectorPoints -> 20,
-  PlotLabel -> "PMV Alignment: Particles Venting Heat into the Kinetic Shadow"],
- {{shadowMass, 10, "Shadow Depth (Mass/Pressure)"}, 1, 50}
+ GraphicsRow[{
+  (* Left: 3D Plot of the 6D Metric Depth *)
+  Plot3D[EntropyField[x, y, shadowMass], {x, -10, 10}, {y, -10, 10},
+   PlotRange -> {-20, 0}, 
+   ColorFunction -> "TemperatureMap",
+   MeshFunctions -> {#3 &},
+   AxesLabel -> {"X", "Y", "Pressure"},
+   PlotLabel -> "6D Kinetic Shadow (Metric Depth)"],
+  
+  (* Right: Vector Plot of the PMV *)
+  VectorPlot[Evaluate[PMV[x, y, shadowMass]], {x, -10, 10}, {y, -10, 10},
+   VectorColorFunction -> (ColorData["TemperatureMap"][#5 / 3] &),
+   VectorColorFunctionScaling -> False,
+   VectorScale -> {0.08, 3}, (* Forces absolute scaling instead of auto-normalizing *)
+   VectorPoints -> 15,
+   PlotLabel -> "PMV Thermodynamic Drift Vectors"]
+ }, ImageSize -> 800],
+ {{shadowMass, 1, "Shadow Depth (Mass/Pressure)"}, 1, 20}
 ]
 
 (* ==================================================================== *)
