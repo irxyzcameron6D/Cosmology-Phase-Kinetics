@@ -48,6 +48,7 @@ $$
 
 * **The Real Component ($q^2 - m^2$):** $q^2$ represents the baseline Real electromagnetic force, and $-m^2$ represents the macroscopic van der Waals residual (Gravity via the Singlet State).
 * **The Imaginary Cross-Term ($2iqm$):** This represents Transverse Phase-Shear, an imaginary shear force strictly requiring both charge and mass. Crucially, this cross-term is the literal mathematical expression of the **Topological Retardation Force** (inertial phase-drag). 
+> **A Note on Dimensionality:** In standard SI units, adding charge ($q$) to mass ($m$) is dimensionally impossible, as they are treated as fundamentally different properties. However, advanced theoretical physics frequently utilizes Natural Units ($c = G = 1$) to bridge this gap. In Phase Kinetics, this summation is natively legal without hidden constants. Because both charge and mass are defined strictly as manifestations of the exact same $SO(3,3)$ fluid momentum flux (polarized pressure vs. unpolarized leakage), they share the exact same foundational geometric dimensions.
 
 ### 3. The Phase-Kinetic Equation of Motion
 Momentum is not a fundamental property; it is a thermodynamic flow state. Because the 6D lattice is a temporally retarded medium, geometric tension does not propagate infinitely fast. Wave emissions in the forward vector compress, while the wake is delayed. To prevent the topological knot from fracturing under this asymmetric heating, the Primary Imaginary Momentum Vector ($\vec{P}_{imag}$) locks in the direction of maximum cooling (the steepest entropy gradient). 
