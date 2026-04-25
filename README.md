@@ -1,8 +1,8 @@
 > This is the **Gemini synthesis version** of the Cameron Unified Framework.  
 > For the computationally verified version with numerical predictions  
 > and documented failures, see the  
-> [Claude Verification repository](https://irxyzcameron6D
-Cosmology-Phase-Kinetics).
+> [Claude Verification repository]([https://irxyzcameron6D
+Cosmology-Phase-Kinetics](https://github.com/irxyzcameron6D/Cosmology-Phase-Kinetics)).
 ---
 
 # Phase Kinetics: The Thermodynamic Unification of Quantum Topology and Macroscopic Gravity
