@@ -343,3 +343,7 @@ An electron has a massive $e/m$ ratio because its simple knot geometry efficient
 Standard physics treats $\alpha$ as an unexplained, dimensionless "magic number." In Phase Kinetics, $\alpha$ is the absolute **Acoustic Impedance Mismatch**—the geometric shear limit of the $SO(3,3)$ intersection.
 
 As a node spins and radiates fluid, the global twist of the hypersphere prevents perfect alignment with the flat $dJ^2 = 0$ boundary layer. The Fine-Structure Constant dictates that for every 137 units of thermodynamic pressure pumped by a node, exactly 1 unit successfully shears off perfectly parallel to the asymptote to become a boundary wave (a photon). The remaining 136 units disperse radially, forming the baseline electrostatic field connecting the nodes.
+
+---
+
+> Read the [Open Disputes Ledger](Open_Disputes.md) to see the exact failures in standard physics that the $SO(3,3)$ architecture resolves.
