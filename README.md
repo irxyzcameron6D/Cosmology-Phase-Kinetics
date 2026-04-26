@@ -187,6 +187,8 @@ The Phase Kinetics framework relies on re-evaluating the foundational texts of c
 * **Cameron, D. (2015).** Is the force of gravity a manifestation of the electric force? Physics Essays, 28(4), 529–541.
 * **Cameron, D. (2012).** Is the current estimation of the ratio of dark matter to visible matter the result of a simple miscalculation? Physics Essays, 25(3), 306–314.
 
+> Read the [Open Disputes Ledger](Open_Disputes.md) to see the exact failures in standard physics that the $SO(3,3)$ architecture resolves.
+
 ---
 
 ## Appendix A: Phase Kinetics Mathematica Computation (.nb)
@@ -343,7 +345,3 @@ An electron has a massive $e/m$ ratio because its simple knot geometry efficient
 Standard physics treats $\alpha$ as an unexplained, dimensionless "magic number." In Phase Kinetics, $\alpha$ is the absolute **Acoustic Impedance Mismatch**—the geometric shear limit of the $SO(3,3)$ intersection.
 
 As a node spins and radiates fluid, the global twist of the hypersphere prevents perfect alignment with the flat $dJ^2 = 0$ boundary layer. The Fine-Structure Constant dictates that for every 137 units of thermodynamic pressure pumped by a node, exactly 1 unit successfully shears off perfectly parallel to the asymptote to become a boundary wave (a photon). The remaining 136 units disperse radially, forming the baseline electrostatic field connecting the nodes.
-
----
-
-> Read the [Open Disputes Ledger](Open_Disputes.md) to see the exact failures in standard physics that the $SO(3,3)$ architecture resolves.
