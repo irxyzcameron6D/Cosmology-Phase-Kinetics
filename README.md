@@ -31,16 +31,18 @@ $$\Psi = \vec{W}_{real} + i\vec{W}_{imag}$$
 * **The Real Component ($\vec{W}_{real}$):** The divergent, outward-pushing acoustic pressure wave. It carries local kinetic energy, radiation pressure, and standard electromagnetic repulsion.
 * **The Imaginary Component ($i\vec{W}_{imag}$):** The convergent, inward-pulling torsional shear wave propagating through the $dI^2$ Inner Space metric. It is completely massless, carries geometric phase information, and serves as the thermodynamic tether (mass/gravity) that holds a topological knot together.
 
-### 2. The Hourglass Topology and Universal Attraction
-Standard physics struggles to explain why gravity only attracts while electromagnetism attracts and repels. Phase Kinetics solves this through the topological constraints of the **Hourglass Universe**. 
+### 2. The Hourglass Topology and Q Complex Directionality
+Standard physics struggles to explain why gravity only attracts while electromagnetism attracts and repels. Phase Kinetics solves this through the algebra of Q Complex and the topological constraints of the **Hourglass Universe**. 
 
-The macroscopic metric consists of two main fluid domains: the Outer Region (our observable universe) and the Inner Region (the anti-phase universe), connected by a luminal superposition boundary. 
-* **The Regional Phase Lock:** Our entire observable universe is permanently polarized to a $+i$ imaginary phase. Every particle in our region is restricted to broadcasting and receiving $+i$ phase waves.
-* **The Mathematics of Directional Motivation:** The physical directional motivation of a particle is determined by squaring the interaction of the complex wave. 
-  * Real wave interactions (electromagnetism) can be constructively shifted by particles: $(+1)^2 = +1$ (a positive probability of moving away, resulting in Repulsion).
-  * Because our universe is locked to $+i$, Imaginary phase interactions *must* be constructive: $(+i)^2 = -1$. 
+The macroscopic metric consists of two main fluid domains: the Outer Region (our observable universe) and the Inner Region (the anti-phase universe). The physical directional motivation of any particle is determined by squaring the interaction of its complex waves.
 
-In vector mechanics, a negative probability of moving away is the absolute mathematical definition of **Attraction**. Gravity is universally attractive simply because our half of the hourglass is locked into the $+i$ phase.
+* **The Freedom of Electromagnetism (Real Waves):** Real kinetic waves ($\vec{W}_{real}$) act locally, meaning particles can actively shift their Real phase relative to one another.
+  * **Constructive Interference (Like Charges):** When phases align, they amplify. $(+1)^2 = +1$. A positive probability of moving away results in **Repulsion**.
+  * **Destructive Interference (Opposite Charges):** When phases are opposite, they cancel. The kinetic wave amplitude drops to $0$. This creates a localized thermodynamic vacuum (a Le Sage shadow) between the particles, allowing the ambient fluid pressure to crush them together, resulting in **Attraction**.
+
+* **The Regional Phase Lock of Gravity (Imaginary Waves):** Our entire observable universe is permanently polarized to a $+i$ imaginary phase. Every particle in our region is restricted to broadcasting and receiving $+i$ phase waves.
+  * Because we are locked to $+i$, Imaginary phase interactions *must* be constructive: $(+i)^2 = -1$. 
+  * In vector mechanics, a negative probability of moving away is the absolute mathematical definition of **Attraction**. Gravity is universally attractive simply because our half of the hourglass is geometrically locked into the $+i$ phase.
 
 ### 3. The Asymmetric Potential Well (Time Delay)
 Because light ($c$) acts as the acoustic speed limit of the fluid, a particle interacts with the *anti-space image* (the delayed wave emission) of another particle. As the cosmic fluid baseline naturally changes over time, this delay means the incoming wave arrives from a fundamentally different thermodynamic epoch. This breaks the symmetry of the potential well, elongating it on the "oldest, coldest" side. Matter naturally falls down this thermodynamic gradient to achieve equilibrium—this is the physical mechanism of gravitational acceleration.
