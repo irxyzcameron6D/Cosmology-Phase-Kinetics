@@ -187,26 +187,32 @@ Manipulate[
 
 (* ==================================================================== *)
 (* SECTION III: Metric Fog (Dark Matter Solution)                       *)
-(* Resolving Flat Rotation Curves via R^3 Density Volume                *)
+(* Resolving Flat Rotation Curves via R^-2 Density Profile              *)
 (* ==================================================================== *)
 
-EnclosedISMMass[R_, density_] := (4/3) * Pi * R^3 * density;
+(* To yield a flat rotation curve, the ISM density must scale as R^-2 *)
+rhoISM[R_, rho0_, Rscale_] := rho0 * (Rscale / R)^2;
+
+(* Integrating 4*Pi*r^2 * rhoISM from 0 to R yields an enclosed mass proportional to R *)
+EnclosedISMMass[R_, rho0_, Rscale_] := 4 * Pi * rho0 * Rscale^2 * R;
 EnclosedBaryonMass[R_, Mbulge_] := Mbulge * (1 - Exp[-R/10^20]);
 
-VelocityCurve[R_, Mbulge_, density_] := Sqrt[G * (EnclosedBaryonMass[R, Mbulge] + EnclosedISMMass[R, density]) / R];
+VelocityCurve[R_, Mbulge_, rho0_, Rscale_] := 
+  Sqrt[G * (EnclosedBaryonMass[R, Mbulge] + EnclosedISMMass[R, rho0, Rscale]) / R];
 
 Print["Galactic Rotation Curve: Standard Baryons vs Phase-Kinetic Metric Fog"]
 Manipulate[
  Plot[{
    Sqrt[G * EnclosedBaryonMass[R, Mbulge] / R], 
-   VelocityCurve[R, Mbulge, density]            
+   VelocityCurve[R, Mbulge, rho0, Rscale]            
   }, {R, 10^18, 10^21},
   PlotRange -> {0, 300000},
   PlotLegends -> {"Newtonian (Vacuum)", "Phase Kinetics (Metric Fog)"},
   AxesLabel -> {"Radius (m)", "Orbital Velocity (m/s)"},
   PlotStyle -> {{Thick, Dashed, Gray}, {Thick, Blue}}],
   {{Mbulge, 10^41, "Central Bulge Mass (kg)"}, 10^40, 10^42},
-  {{density, rhoISM, "ISM Density (kg/m^3)"}, 0, 10^-20}
+  {{rho0, 10^-21, "Base ISM Density (kg/m^3)"}, 10^-23, 10^-19},
+  {{Rscale, 10^20, "Scale Radius (m)"}, 10^19, 10^21}
 ]
 
 (* ==================================================================== *)
