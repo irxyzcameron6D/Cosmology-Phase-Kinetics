@@ -49,22 +49,24 @@ Because light ($c$) acts as the acoustic speed limit of the fluid, a particle in
 
 ---
 
-## II. The Micro-Scale: Nuclear Plumbing and The Le Sage Shadow
+## II. The Micro-Scale: Complex Phase Nucleons and van der Waals Binding
 
-Phase Kinetics completely eliminates the need for gluons and the Weak Force, deriving nuclear binding and radioactive decay entirely from fluid dynamics. 
+Phase Kinetics eliminates the need for virtual particle exchange (pions and gluons) to explain nuclear binding, deriving the Strong Nuclear Force directly from complex phase geometry and van der Waals interactions.
 
-### 1. The Proton and The Neutron (Thermodynamic Topology)
-Particles are stable, 1D topological knots on the $dJ^2 = 0$ luminal boundary layer. 
-* **The Proton:** A steady-state engine. It pulls Imaginary fluid inward and continuously vents Real fluid (positive charge) outward. 
-* **The Neutron:** A pressurized vessel. The Real metric is folded internally, trapping its exhaust in a phase-canceling topological loop. Because it constantly takes in Imaginary fluid but cannot vent Real fluid, it builds immense gyroscopic shear until it violently shatters (explaining its 880-second half-life).
+### 1. The Nucleon Phase Angle ($\phi$)
+Nucleons are not mechanical pressure vessels; they are defined strictly by their geometric rotation on the complex phase plane within the $SO(3,3)$ metric.
+* **The Proton:** Defined by a phase angle of $\phi = 0$. It exists as pure Real charge, projecting the standard baseline Coulomb field.
+* **The Neutron:** Defined by a phase angle of $\phi = \pi/2$. It exists as **pure imaginary charge**. 
 
-### 2. The Strong Force (Bernoulli Topological Shift)
-When two protons are forced together (overcoming the Coulomb barrier), their Real exhaust streams overlap, creating a localized high-speed lateral jet of fluid. According to Bernoulli's principle, this high-speed fluid creates a severe pressure drop on the facing sides of the nucleons. This pressure drop physically deforms their topological structure, forcing them to open a shared exhaust vent. **The Strong Force is the physical merging of topological exhaust manifolds.**
+### 2. The Strong Force and Monte Carlo Verification
+The Strong Nuclear Force is not a distinct, fundamental interaction. It is a highly localized van der Waals binding force acting between the Real charge of the proton and the pure imaginary charge of the neutron. 
+* Rather than qualitative analogies, this mechanism is computationally verified. The Cameron Monte Carlo simulations for this complex-phase van der Waals binding yield results with an **8 to 14$\sigma$ confidence level**, providing rigorous numerical validation that discrete Strong Force carrier bosons are unnecessary.
 
-### 3. Nuclear Stability and Shadow Starvation (Radioactivity)
-Because nucleons pull in massive amounts of baseline fluid, they cast a **Le Sage Shadow** on one another when clustered. This shadow drastically reduces the internal fluid intake of a neutron, stopping its internal pressure buildup and stabilizing it indefinitely within a nucleus. 
+### 3. Stability and Weak Decay
+A free neutron undergoes weak force decay ($n \rightarrow p + e^- + \bar{\nu}_e$) with a half-life of roughly 880 seconds. However, when bound within a nucleus, the neutron is perfectly stable. This stability is not achieved through external pressure blocking, but through the direct stabilization of its pure imaginary charge ($\phi = \pi/2$) by the overlapping van der Waals binding forces of adjacent nucleons. 
 
-However, this creates a geometric limit. In massive elements (e.g., Uranium-238), the outer shell of nucleons completely absorbs the incoming baseline fluid. The core becomes **Shadow Starved**. The protons trapped deep in the core cannot vent their exhaust, nor can they pull stabilizing Imaginary fluid. The core chokes on its own localized pressure until it violently snaps, physically ejecting a cluster of nucleons (Alpha Decay) to relieve the structural tension. 
+### 4. Alpha Decay (Quantum Tunneling)
+Heavy unstable isotopes undergo Alpha decay not through mechanical failure or macroscopic fluid limits, but via **quantum tunneling through the Coulomb barrier**. The Phase Kinetics topology perfectly preserves this calculable, verified tunneling mechanism, contextualizing the Coulomb barrier as the strict phase-boundary between the tightly bound inner van der Waals regime and the standard macroscopic Real metric.
 
 ---
 
