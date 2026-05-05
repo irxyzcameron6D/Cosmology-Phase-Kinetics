@@ -34,9 +34,11 @@ This mathematically ensures that the observable energy states of standard model 
 To formalize the dynamics of a bound particle on the $dJ^2 = 0$ boundary layer, we construct the local Lagrangian $\mathcal{L}$. The total complex momentum is defined as $\vec{P}_{total} = \vec{P}_{re} + i\vec{P}_{im}$.
 
 Expanding the interaction cross-term for the rotating topological knot:
+
 $$\mathcal{L}_{interaction} \propto (\vec{P}_{re} + i\vec{P}_{im}) \times (\vec{P}_{re} - i\vec{P}_{im})$$
 
 Expanding the cross product:
+
 $$\mathcal{L}_{interaction} \propto (\vec{P}_{re} \times \vec{P}_{re}) - i(\vec{P}_{re} \times \vec{P}_{im}) + i(\vec{P}_{im} \times \vec{P}_{re}) + (\vec{P}_{im} \times \vec{P}_{im})$$
 
 Since the cross product of any vector with itself is zero ($\vec{P} \times \vec{P} = 0$), and cross products are anticommutative ($\vec{P}_{im} \times \vec{P}_{re} = -\vec{P}_{re} \times \vec{P}_{im}$), the equation strictly reduces to the cross-term:
@@ -65,9 +67,11 @@ $$\nabla^2 (\vec{W}_{real} + i\vec{W}_{imag}) - \frac{1}{c^2} \frac{\partial^2}{
 Because the real and imaginary components are mathematically orthogonal, they cannot algebraically mix to form zero on their own. Therefore, the real and imaginary parts of the equation must independently equal zero to satisfy the overall wave equation:
 
 **The Real Component (Electromagnetism / Maxwell):**
+
 $$\nabla^2 \vec{W}_{real} - \frac{1}{c^2} \frac{\partial^2 \vec{W}_{real}}{\partial t^2} = 0$$
 
 **The Imaginary Component (Gravity):**
+
 $$\nabla^2 \vec{W}_{imag} - \frac{1}{c^2} \frac{\partial^2 \vec{W}_{imag}}{\partial t^2} = 0$$
 
 ### Empirical Verification (GW170817)
