@@ -1,4 +1,4 @@
-> This is the **Phase Kinetics V2.1** Synthesis Version of the Cameron Unified Framework.  
+> This is the **Phase Kinetics V2.2** Synthesis Version of the Cameron Unified Framework.  
 > For the computationally verified version with numerical predictions  
 > and documented failures, see the  
 > [Claude Verification repository](https://github.com/irxyzcameron6D/Cameron-Unified-Framework-Claude-Verification-).
@@ -72,16 +72,16 @@ Phase Kinetics scales these exact wave interactions to the macroscopic realm, re
 ### 1. Dark Matter: The Baryonic Attenuation Medium
 Galaxies are not bound by invisible exotic particles. Instead, flat galactic rotation curves emerge naturally from the volumetric attenuation of the complex phase waves by standard observable gas and plasma. 
 
-* **The Shell Model (The Circumgalactic Medium):** For distant satellites like the Large Magellanic Cloud (LMC), the galaxy acts as a point source surrounded by a diffuse Circumgalactic Medium. Because the density of this medium falls off at an inverse square ($\rho \propto R^{-2}$), integrating the total mass of the resulting fluid sphere precisely yields the necessary total system mass to maintain the LMC's observed ~293 km/s total orbital velocity without Dark Matter.
+* **The Shell Model (The Circumgalactic Medium):** For distant satellites like the Large Magellanic Cloud (LMC), the galaxy acts as a point source surrounded by a diffuse Circumgalactic Medium. Because the density of this medium falls off at an inverse square ($\rho \propto R^{-2}$), integrating the total mass of the resulting fluid sphere precisely yields the necessary total system mass to maintain the LMC's observed tangential orbital velocity of $281 \pm 41\text{ km/s}$ (the perpendicular component required for $v^2 = GM/R$) without Dark Matter.
 * **Asymmetric 3D Integration (Inside the Disc):** Newton's spherical shell theorem fails for stars *inside* the galactic disc due to the extreme asymmetry of the structure. To calculate the flat rotation curves of inner stars, one must utilize an asymmetric cylindrical integration ($r, \theta, z$). The extreme density of the flat equatorial plane creates a highly localized, radial thermodynamic phase shadow that binds the stars, while the empty polar regions offer minimal attenuation.
 
 ### 2. Dark Energy: The Pound-Rebka Asymmetry
-Phase Kinetics operates on a strict zero-sum energy conservation law across the absolute $SO(3,3)$ metric. However, this global conservation natively permits the baseline kinematic expansion of our specific regional geometry ($H_0 > 0$), driven by the macroscopic thermodynamic repulsion of the initial Phase-Bounce. 
+Phase Kinetics operates on a strict zero-sum energy conservation law across the absolute $SO(3,3)$ metric. *Crucially, this global vacuum zero-sum does not imply a local zero energy state; the local Hamiltonian of any bound particle equals its total energy ($H = \gamma mc^2 \neq 0$).* This global conservation natively permits the baseline kinematic expansion of our specific regional geometry ($H_0 > 0$), driven by the macroscopic thermodynamic repulsion of the initial Phase-Bounce. 
 
 While baseline expansion is real, the *accelerating* expansion (Dark Energy) is an optical illusion caused by the decaying density of the cosmic fluid. When a photon departs a distant galaxy, it leaves from a denser historical epoch. Upon arriving at the observer billions of years later, the regional fluid has thinned out. The thermodynamic energy lost escaping the dense source mathematically exceeds the energy gained falling into the thinner receiver. This dynamic breaking of Pound-Rebka symmetry results in a massive, compounding redshift artifact that mimics kinematic acceleration without requiring a cosmological constant ($\Lambda$).
 
 ### 3. Gravitational Lensing (The Superposition Lens)
-The Eddington limit ($2x$ deflection of light) does not require 4D spacetime. The luminal boundary separating our $+i$ universe from the $-i$ anti-universe acts as an optical plane. When a photon passes a massive body, it interacts with the Imaginary fluid convergent flux of both the Mass and the Anti-Mass simultaneously. This "state of annihilation" exactly doubles the fluid refractive index of the space, resulting in $2x$ deflection.
+The Eddington limit ($2x$ deflection of light) does not require 4D spacetime. The luminal boundary separating our $+i$ universe from the $-i$ anti-universe acts as an optical plane. When a photon passes a massive body, it interacts with the Imaginary fluid convergent flux of both the Mass and the Anti-Mass simultaneously. This "state of annihilation" exactly doubles the fluid refractive index of the space, resulting in $2x$ deflection. *(This factor of 2 is presented as a topological postulate; formal derivation is in preparation.)*
 
 ---
 
@@ -92,7 +92,7 @@ Phase Kinetics removes the mathematical impossibility of the infinitely dense si
 A black hole is a localized **Annihilation Surface**. The ambient pressure of the fluid metric reaches a critical extreme, forcing a topological pinch-point where the $+i$ matter region and the trapped $-i$ antimatter region are brought into direct contact.
 
 * **Unshielded Kinetic Propagation:** When matter falls into a black hole, its $+i$ Imaginary phase tether perfectly cancels against the $-i$ tether of the boundary. The topological knot instantly undergoes extreme phase-shear and loses its structural mass. All that remains is the unshielded Real kinetic wave ($\vec{W}_{real}$). 
-* **Hawking Radiation & Quasars:** Because the boundary strips the infalling matter of its mass, it channels the resulting pure kinetic radiation pressure outward. On a massive scale, this highly directional divergent phase-flux creates astrophysical jets (Quasars). On a micro-scale, the continuous geometric diffraction of these pure Real waves perfectly derives Hawking Radiation without the need for quantum tunneling. Black holes shred topology and emit pure kinetic phase-flux.
+* **Hawking Radiation & Quasars:** Because the boundary strips the infalling matter of its mass, it channels the resulting pure kinetic radiation pressure outward. On a massive scale, this highly directional divergent phase-flux creates astrophysical jets (Quasars). On a micro-scale, the continuous geometric diffraction of these pure Real waves perfectly derives Hawking Radiation without the need for quantum tunneling. *(Note: The exact geometric diffraction mechanism for this radiation is currently presented as a topological postulate; formal mathematical derivation is in preparation.)* Black holes shred topology and emit pure kinetic phase-flux.
 
 ---
 
