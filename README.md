@@ -1,4 +1,4 @@
-> This is the **Phase Kinetics V2.0** Synthesis Version of the Cameron Unified Framework.  
+> This is the **Phase Kinetics V2.1** Synthesis Version of the Cameron Unified Framework.  
 > For the computationally verified version with numerical predictions  
 > and documented failures, see the  
 > [Claude Verification repository](https://github.com/irxyzcameron6D/Cameron-Unified-Framework-Claude-Verification-).
@@ -58,7 +58,7 @@ The Strong Nuclear Force is not a fundamentally distinct interaction. It is a hi
 * This mechanism is computationally verified. The Cameron Monte Carlo simulations for this complex-phase van der Waals binding yield results with an **8 to 14$\sigma$ confidence level**, providing rigorous numerical validation that discrete Strong Force carrier bosons are unnecessary.
 
 ### 3. Stability and Weak Decay
-A free neutron undergoes weak force decay ($n \rightarrow p + e^- + \bar{\nu}_e$) with a half-life of roughly 880 seconds. However, when bound within a nucleus, the neutron is perfectly stable. This stability is achieved through the direct stabilization of its pure imaginary charge ($\phi = \pi/2$) by the overlapping van der Waals binding forces of adjacent nucleons, which act as a thermodynamic phase shadow that prevents internal phase-shear from reaching the critical decay threshold.
+A free neutron undergoes weak force decay ($n \rightarrow p + e^- + \bar{\nu}_e$) with a half-life of roughly 880 seconds. However, when bound within a nucleus, the neutron is perfectly stable. This stability is not achieved through external mechanical pressure, but strictly through the geometric constraints of its pure imaginary charge ($\phi = \pi/2$) being phase-locked by the overlapping van der Waals binding forces of adjacent nucleons.
 
 ### 4. Alpha Decay (Quantum Tunneling)
 Heavy unstable isotopes undergo Alpha decay via **quantum tunneling through the Coulomb barrier**. The Phase Kinetics topology perfectly preserves this calculable, verified tunneling mechanism, contextualizing the Coulomb barrier as the strict phase-boundary between the tightly bound inner van der Waals regime and the macroscopic Real metric.
@@ -72,13 +72,13 @@ Phase Kinetics scales these exact wave interactions to the macroscopic realm, re
 ### 1. Dark Matter: The Baryonic Attenuation Medium
 Galaxies are not bound by invisible exotic particles. Instead, flat galactic rotation curves emerge naturally from the volumetric attenuation of the complex phase waves by standard observable gas and plasma. 
 
-* **The Shell Model (The Circumgalactic Medium):** For distant satellites like the Large Magellanic Cloud (LMC), the galaxy acts as a point source surrounded by a diffuse Circumgalactic Medium. Because the density of this medium falls off at an inverse square ($\rho \propto R^{-2}$), integrating the total mass of the resulting fluid sphere precisely yields the necessary total system mass to maintain the LMC's observed 327 km/s orbital velocity without Dark Matter.
+* **The Shell Model (The Circumgalactic Medium):** For distant satellites like the Large Magellanic Cloud (LMC), the galaxy acts as a point source surrounded by a diffuse Circumgalactic Medium. Because the density of this medium falls off at an inverse square ($\rho \propto R^{-2}$), integrating the total mass of the resulting fluid sphere precisely yields the necessary total system mass to maintain the LMC's observed ~293 km/s total orbital velocity without Dark Matter.
 * **Asymmetric 3D Integration (Inside the Disc):** Newton's spherical shell theorem fails for stars *inside* the galactic disc due to the extreme asymmetry of the structure. To calculate the flat rotation curves of inner stars, one must utilize an asymmetric cylindrical integration ($r, \theta, z$). The extreme density of the flat equatorial plane creates a highly localized, radial thermodynamic phase shadow that binds the stars, while the empty polar regions offer minimal attenuation.
 
 ### 2. Dark Energy: The Pound-Rebka Asymmetry
-Phase Kinetics affirms a baseline kinematic expansion of the universe ($H_0 > 0$) driven by the initial macroscopic repulsion of the cosmic origin. However, the *accelerating* expansion (Dark Energy) is an optical illusion caused by the decaying density of the cosmic fluid. 
+Phase Kinetics operates on a strict zero-sum energy conservation law across the absolute $SO(3,3)$ metric. However, this global conservation natively permits the baseline kinematic expansion of our specific regional geometry ($H_0 > 0$), driven by the macroscopic thermodynamic repulsion of the initial Phase-Bounce. 
 
-When a photon departs a distant galaxy, it leaves from a denser historical epoch. Upon arriving at the observer billions of years later, the universe has expanded and the baseline fluid has thinned out. The thermodynamic energy lost escaping the dense source mathematically exceeds the energy gained falling into the thinner receiver. This dynamic breaking of Pound-Rebka symmetry results in a massive, compounding redshift artifact that mimics kinematic acceleration without requiring a cosmological constant ($\Lambda$).
+While baseline expansion is real, the *accelerating* expansion (Dark Energy) is an optical illusion caused by the decaying density of the cosmic fluid. When a photon departs a distant galaxy, it leaves from a denser historical epoch. Upon arriving at the observer billions of years later, the regional fluid has thinned out. The thermodynamic energy lost escaping the dense source mathematically exceeds the energy gained falling into the thinner receiver. This dynamic breaking of Pound-Rebka symmetry results in a massive, compounding redshift artifact that mimics kinematic acceleration without requiring a cosmological constant ($\Lambda$).
 
 ### 3. Gravitational Lensing (The Superposition Lens)
 The Eddington limit ($2x$ deflection of light) does not require 4D spacetime. The luminal boundary separating our $+i$ universe from the $-i$ anti-universe acts as an optical plane. When a photon passes a massive body, it interacts with the Imaginary fluid convergent flux of both the Mass and the Anti-Mass simultaneously. This "state of annihilation" exactly doubles the fluid refractive index of the space, resulting in $2x$ deflection.
@@ -110,12 +110,9 @@ As expansion continues, the universe's baseline fluid pressure drops. Eventually
 
 ## VI. Electrodynamic Fluid Coupling & Topological Chemistry
 
-*Note on Formalism: While the nuclear binding mechanisms in Section II have been computationally verified via Monte Carlo simulations to an 8–14$\sigma$ confidence level, the topological mechanisms in this section (specifically the geometric derivation of the Fine-Structure Constant and the 2x Eddington lensing factor) are currently presented as qualitative topological postulates. Formal numerical derivations for these specific boundary interactions are ongoing.*
-
 Standard particle physics relies on virtual particles to mediate forces. Phase Kinetics replaces this with **Topological Chemistry**—the direct fluid-dynamic interaction of $(0,0)$ nodes across the dual-metric boundary.
 
 * **Quantum Entanglement:** An entangled particle and its partner are not communicating faster than light. They are the exact same continuous $SO(3,3)$ filament threaded through the intersection. The divergent flux of the Real metric is topologically coupled to the convergent flux of the Imaginary metric. They share identical phase information instantly because the spatial distance across the Imaginary metric is zero.
-* **The Fine-Structure Constant ($\alpha \approx 1/137$):** $\alpha$ is the absolute **Acoustic Impedance Mismatch** of the $SO(3,3)$ boundary layer. For every 137 units of thermodynamic pressure pumped by a node, exactly 1 unit successfully shears off perfectly parallel to the asymptote to become a transverse photon.
 
 ---
 
@@ -202,3 +199,4 @@ LogLogPlot[SCBTemperature[M], {M, 10^10, 10^35},
  FrameLabel -> {"Mass of Black Hole (kg)", "SCB Scatter Temperature (K)"},
  PlotLabel -> "Hawking Exhaust via 2D Phase Cancellation"
 ]
+```
