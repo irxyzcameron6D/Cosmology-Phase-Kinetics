@@ -1,4 +1,4 @@
-> This is the **Phase Kinetics V2.2** Synthesis Version of the Cameron Unified Framework.  
+> This is the **Phase Kinetics V2.3** Synthesis Version of the Cameron Unified Framework.  
 > For the computationally verified version with numerical predictions  
 > and documented failures, see the  
 > [Claude Verification repository](https://github.com/irxyzcameron6D/Cameron-Unified-Framework-Claude-Verification-).
