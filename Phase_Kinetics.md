@@ -35,9 +35,7 @@ To formalize the dynamics of a bound particle on the $dJ^2 = 0$ boundary layer, 
 
 $$\vec{P}_{total} = \vec{P}_{re} + i\vec{P}_{im}$$
 
-*(Note: To maintain dimensional consistency with $\hbar$ in $J\cdot s$, the vector $\vec{P}$ here strictly refers to the angular momentum of the PMV rotation via $\vec{r} \times \vec{p}$, rather than linear momentum).*
-
-Expanding the interaction cross-term for the rotating topological knot:
+> **Note:** To maintain dimensional consistency with $\hbar$ in $J\cdot s$, the vector $\vec{P}$ here strictly refers to the angular momentum of the PMV rotation via $\vec{r} \times \vec{p}$, rather than linear momentum.
 
 $$\mathcal{L}_{interaction} \propto (\vec{P}_{re} + i\vec{P}_{im}) \times (\vec{P}_{re} - i\vec{P}_{im})$$
 
