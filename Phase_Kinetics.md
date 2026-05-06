@@ -88,7 +88,7 @@ Nucleons are defined strictly by their geometric rotation on the complex phase p
 * **The Neutron:** Phase angle $\phi = \pi/2$. Pure imaginary charge.
 
 ### 1. The Strong Nuclear Force
-The Strong Force is computationally verified via Cameron Monte Carlo simulations as a highly localized van der Waals binding force acting between the Real charge of the proton and the pure imaginary charge of the neutron. These simulations yield results with an **8 to 14$\sigma$ confidence level**, validating the mechanism without discrete carrier bosons.
+The Strong Force is computationally verified via Cameron Monte Carlo simulations as a highly localized van der Waals binding force acting between the Real charge of the proton and the pure imaginary charge of the neutron. These simulations yield results with an **8 to 14 $\sigma$ confidence level**, validating the mechanism without discrete carrier bosons.
 
 ### 2. Neutron Weak Decay and Alpha Tunneling
 * **Weak Decay:** An isolated free neutron undergoes standard weak force decay ($n \rightarrow p + e^- + \bar{\nu}_e$). When bound, the neutron is perfectly stabilized by the geometric phase-lock of the overlapping van der Waals forces.
