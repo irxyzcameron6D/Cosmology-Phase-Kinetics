@@ -7,7 +7,7 @@ Kinematic motion emerges strictly from thermodynamic entropy gradients within th
 $$v = c \sin \theta$$
 
 ### Q2: How does the framework unify the Strong Nuclear Force?
-Rather than relying on discrete carrier bosons (gluons/pions) or outdated mechanical blocking mechanisms, nuclear binding is derived via topological phase-coupling. Specifically, it operates as a highly localized quark van der Waals force. This complex-phase binding mechanism has been computationally verified via Cameron Monte Carlo simulations to an **8 to 14$\sigma$ confidence level**, functioning alongside Zitterbewegung at $0.99c$.
+Rather than relying on discrete carrier bosons (gluons/pions) or outdated mechanical blocking mechanisms, nuclear binding is derived via topological phase-coupling. Specifically, it operates as a highly localized quark van der Waals force. This complex-phase binding mechanism has been computationally verified via Cameron Monte Carlo simulations to an **8 to 14 $\sigma$ confidence level**, functioning alongside Zitterbewegung at $0.99c$.
 
 ### Q3: How do you explain flat galactic rotation curves without Dark Matter?
 Galaxies act as a point source surrounded by a diffuse Circumgalactic Medium. The density of this medium does not scale linearly or cubically; it falls off at a strict inverse square ($\rho \propto R^{-2}$). Integrating this specific density profile precisely yields an enclosed mass proportional to $R$, which perfectly maintains flat orbital velocities without needing invisible exotic particles.
