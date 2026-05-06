@@ -1,6 +1,6 @@
 # Phase Kinetics: Important Questions & Conceptual Clarifications
 
-This document addresses the pivotal questions regarding the mechanics of the Phase Kinetics framework, explicitly contrasting its fluid-dynamic solutions with the standard models of General Relativity and $\Lambda$CDM cosmology. 
+This document addresses the pivotal questions regarding the mechanics of the Phase Kinetics framework, explicitly contrasting its fluid-dynamic solutions with the standard models of General Relativity and $\Lambda$ CDM cosmology. 
 
 ---
 
