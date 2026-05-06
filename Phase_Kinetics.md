@@ -31,7 +31,11 @@ This mathematically ensures that the observable energy states of standard model 
 
 ## III. The Phase Kinetics Lagrangian and the Spin Equation
 
-To formalize the dynamics of a bound particle on the $dJ^2 = 0$ boundary layer, we construct the local Lagrangian $\mathcal{L}$. The total complex angular momentum of the PMV (Phase-Metric Velocity) rotation is defined as $\vec{P}_{total} = \vec{P}_{re} + i\vec{P}_{im}$. *(Note: To maintain dimensional consistency with $\hbar$ in $J\cdot s$, $\vec{P}$ here strictly refers to the angular momentum of the PMV rotation via $\vec{r} \times \vec{p}$, rather than linear momentum).*
+To formalize the dynamics of a bound particle on the $dJ^2 = 0$ boundary layer, we construct the local Lagrangian $\mathcal{L}$. The total complex angular momentum of the PMV (Phase-Metric Velocity) rotation is defined as:
+
+$$\vec{P}_{total} = \vec{P}_{re} + i\vec{P}_{im}$$
+
+*(Note: To maintain dimensional consistency with $\hbar$ in $J\cdot s$, the vector $\vec{P}$ here strictly refers to the angular momentum of the PMV rotation via $\vec{r} \times \vec{p}$, rather than linear momentum).*
 
 Expanding the interaction cross-term for the rotating topological knot:
 
