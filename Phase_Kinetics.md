@@ -56,7 +56,7 @@ $$\vec{P}_{re} \times \vec{P}_{im} = \hbar$$
 
 ## IV. Complexified Wave Mechanics and Maxwell's Equations
 
-*Note: This section mathematically proves that electromagnetism and gravity are unified components of the same field and must propagate at the identical speed $c$.*
+*Note: This section mathematically proves that electromagnetism and gravity are unified components of the same field and must propagate at the identical speed c.*
 
 Because the baseline $SO(3,3)$ fluid is a continuous medium, we postulate that the unified complex field $\Psi$ satisfies the standard d'Alembertian wave equation:
 
