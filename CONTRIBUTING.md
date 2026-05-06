@@ -2,7 +2,7 @@
 
 Thank you for your interest in the Phase Kinetics framework. 
 
-This repository challenges fundamental parameters of the $\Lambda$CDM standard model. Because the claims made here are highly disruptive, the standard for contributing to, altering, or challenging this codebase is uncompromisingly high. 
+This repository challenges fundamental parameters of the $ \Lambda$CDM standard model. Because the claims made here are highly disruptive, the standard for contributing to, altering, or challenging this codebase is uncompromisingly high. 
 
 Please read these guidelines before submitting an Issue, participating in a Discussion, or opening a Pull Request.
 
