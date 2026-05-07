@@ -168,3 +168,29 @@ To derive the full value, Phase Kinetics utilizes the fully relativistic Binet e
    *(Yields 7.17 arcseconds/century, exactly 1/6 of the total).*
 
 Summing these specific derivations (21.50 + 14.33 + 7.17) cleanly yields the exact empirical value of **43.00 arcseconds/century**. This preserves the specific 3:2:1 structural signature of the Phase Kinetics prediction, definitively separating it from simple Newtonian adjustments.
+
+### VIII. Relativistic Thermodynamics and the Hull Speedometer
+
+A massive body or ship moving at a relativistic speed $\beta$ through the Interstellar Medium (ISM) or the Cosmic Microwave Background (CMB) photon gas experiences a severe asymmetric pressure and temperature gradient. This dynamic allows for a strictly local measurement of velocity relative to the CMB rest frame, negating the need to observe the CMB dipole across the entire sky.
+
+The temperature experienced at the forward and aft hulls is dictated by the relativistic Doppler shift:
+
+$$T_{forward} = T_0 \sqrt{\frac{1+\beta}{1-\beta}}$$
+
+$$T_{aft} = T_0 \sqrt{\frac{1-\beta}{1+\beta}}$$
+
+By taking the ratio $R$ of the forward to aft hull temperatures, the baseline temperature $T_0$ cancels out:
+
+$$R = \frac{T_{forward}}{T_{aft}} = \frac{1+\beta}{1-\beta}$$
+
+Solving for the ship's velocity $\beta$ yields a purely local speedometer equation:
+
+$$\beta = \frac{R - 1}{R + 1}$$
+
+The forward hull essentially becomes the thermometer and the speedometer. At high relativistic speeds, the differential is massive; for example, at $\beta = 0.99$, the ratio is $R \approx 199$. 
+
+**Physical Compression vs. Penrose-Terrell Rotation**
+This asymmetric thermodynamic pressure represents a real, physical force. The ISM/CMB medium physically crushes the forward hull, while the aft hull remains unsupported in a near-vacuum. 
+
+This must be strictly distinguished from the Penrose-Terrell effect (1959), which describes Lorentz contraction as an optical coordinate effect (rotation) where no physical force is felt. The Penrose-Terrell theorem is mathematically correct for motion strictly through a vacuum, as it assumes the ship's proper dimensions remain unchanged. However, Phase Kinetics operates within a physical fluid medium. Therefore, the physical compression resulting from asymmetric pressure is a real force that is superimposed simultaneously over the Penrose-Terrell optical rotation. Both effects are present; Penrose and Terrell simply solved for a domain that did not include a physical medium.
+
