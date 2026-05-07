@@ -131,38 +131,18 @@ $$M_{eff} = M \left(1 + \frac{v^2}{c^2}\right)$$
 
 While this coupling force smoothly transitions from $M$ (at $v \ll c$) to $2M$ (at $v = c$), the actual *trajectory* of the particle depends simultaneously on its relativistic momentum.
 
-2. The Discontinuity of Relativistic Deflection and Invariant Mass
+### 2. The Discontinuity of Relativistic Deflection and Invariant Mass
 
 The Cameron deflection formula for a massive particle is given by:
 
-α= 
-bc 
-2
- β 
-2
- 
-2GM(1+β 
-2
- ) 
-1−β 
-2
- 
+$$\alpha = \frac{2GM(1+\beta^2)\sqrt{1-\beta^2}}{b c^2 \beta^2}$$
 
-​	
- 
-​	
- 
-The physical reason the  
-1−β 
-2
- 
+The physical reason the $\sqrt{1-\beta^2}$ factor (which is equivalent to $1/\gamma$) appears is fundamental to how gravity couples to mass in this framework. The Phase Kinetics/Cameron model utilizes Interpretation B of Special Relativity, where rest mass ($m$) is a strict invariant scalar. 
 
-​	
-  factor (which is equivalent to 1/γ) appears is fundamental to how gravity couples to mass in this framework. The Phase Kinetics/Cameron model utilizes Interpretation B of Special Relativity, where rest mass (m) is a strict invariant scalar.
+In this regime, the gravitational coupling in the numerator relies purely on this invariant rest mass. However, the relativistic momentum in the denominator is $p = m(\gamma v)$, which represents the invariant mass multiplied by the proper velocity. As $\beta \to 1$, the proper velocity diverges to infinity. Therefore, the deflection angle $\alpha \to 0$ for highly relativistic massive particles because their proper velocity diverges—making them inertially too "heavy" to be deflected—not because of a classical mechanical failure.
 
-In this regime, the gravitational coupling in the numerator relies purely on this invariant rest mass. However, the relativistic momentum in the denominator is p=m(γv), which represents the invariant mass multiplied by the proper velocity. As β→1, the proper velocity diverges to infinity. Therefore, the deflection angle α→0 for highly relativistic massive particles because their proper velocity diverges—making them inertially too "heavy" to be deflected—not because of a classical mechanical failure.
+By contrast, General Relativity (GR) couples gravity to the stress-energy tensor, which includes the relativistic mass-energy ($\gamma m$). This is why GR predicts a smooth transition to the Eddington limit for light. Consequently, the deflection of highly relativistic massive particles serves as a definitive experimental test: it determines whether gravity physically couples to invariant rest mass (Cameron) or to the relativistic stress-energy tensor (GR). Both are internally consistent applications of Special Relativity, but they make radically diverging, testable physical predictions as $v \to c$.
 
-By contrast, General Relativity (GR) couples gravity to the stress-energy tensor, which includes the relativistic mass-energy (γm). This is why GR predicts a smooth transition to the Eddington limit for light. Consequently, the deflection of highly relativistic massive particles serves as a definitive experimental test: it determines whether gravity physically couples to invariant rest mass (Cameron) or to the relativistic stress-energy tensor (GR). Both are internally consistent applications of Special Relativity, but they make radically diverging, testable physical predictions as v→c.
 ### 3. Perihelion Precession and the 3:2:1 Ratio
 
 For slow-moving planetary bodies like Mercury ($v \approx 48$ km/s), the $M_{eff}$ coupling heuristic provides the baseline thermodynamic correction to the central potential. However, the total anomalous perihelion advance of exactly 43.00 arcseconds per century is not a monolithic effect. 
