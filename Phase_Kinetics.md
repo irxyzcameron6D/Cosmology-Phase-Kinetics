@@ -169,6 +169,8 @@ To derive the full value, Phase Kinetics utilizes the fully relativistic Binet e
 
 Summing these specific derivations (21.50 + 14.33 + 7.17) cleanly yields the exact empirical value of **43.00 arcseconds/century**. This preserves the specific 3:2:1 structural signature of the Phase Kinetics prediction, definitively separating it from simple Newtonian adjustments.
 
+---
+
 ### VIII. Relativistic Thermodynamics and the Hull Speedometer
 
 A massive body or ship moving at a relativistic speed $\beta$ through the Interstellar Medium (ISM) or the Cosmic Microwave Background (CMB) photon gas experiences a severe asymmetric pressure and temperature gradient. This dynamic allows for a strictly local measurement of velocity relative to the CMB rest frame, negating the need to observe the CMB dipole across the entire sky.
