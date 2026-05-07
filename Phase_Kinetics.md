@@ -131,19 +131,38 @@ $$M_{eff} = M \left(1 + \frac{v^2}{c^2}\right)$$
 
 While this coupling force smoothly transitions from $M$ (at $v \ll c$) to $2M$ (at $v = c$), the actual *trajectory* of the particle depends simultaneously on its relativistic momentum.
 
-### 2. The Discontinuity of Relativistic Deflection
-For a massive particle (like a neutron) traveling at relativistic speeds, the deflection angle $\alpha$ is a ratio of the transverse impulse to the total relativistic momentum ($p_{total} = \gamma m v$).
+2. The Discontinuity of Relativistic Deflection and Invariant Mass
 
-Applying the Phase Kinetics coupling to the standard deflection derivation yields the angle:
+The Cameron deflection formula for a massive particle is given by:
 
-$$\alpha = \frac{G M_{eff}}{r v^2} \cdot \frac{1}{\gamma} = \frac{G M}{r v^2} \left(1 + \frac{v^2}{c^2}\right) \sqrt{1 - \frac{v^2}{c^2}}$$
+α= 
+bc 
+2
+ β 
+2
+ 
+2GM(1+β 
+2
+ ) 
+1−β 
+2
+ 
 
-This reveals a critical, hard discontinuity at the luminal boundary:
-* **Massive Particles ($v \to c$):** As velocity increases, the momentum term ($\gamma \to \infty$) overwhelms the coupling force. At $v = 0.99c$, the deflection angle collapses to near zero (e.g., ~0.25 arcseconds). The particle has too much inertia to be turned.
-* **Photons ($v = c$):** Light has no rest mass, circumventing the $\gamma \to \infty$ inertia trap. The momentum is strictly $p = E/c$. Therefore, the photon uniquely experiences the pure $2M$ topological coupling without the inertial penalty, perfectly yielding the 1.75 arcsecond Eddington limit. 
+​	
+ 
+​	
+ 
+The physical reason the  
+1−β 
+2
+ 
 
-This proves that the transition from matter to light is not a smooth kinematic curve, but a hard topological phase transition at the $dJ^2 = 0$ boundary layer.
+​	
+  factor (which is equivalent to 1/γ) appears is fundamental to how gravity couples to mass in this framework. The Phase Kinetics/Cameron model utilizes Interpretation B of Special Relativity, where rest mass (m) is a strict invariant scalar.
 
+In this regime, the gravitational coupling in the numerator relies purely on this invariant rest mass. However, the relativistic momentum in the denominator is p=m(γv), which represents the invariant mass multiplied by the proper velocity. As β→1, the proper velocity diverges to infinity. Therefore, the deflection angle α→0 for highly relativistic massive particles because their proper velocity diverges—making them inertially too "heavy" to be deflected—not because of a classical mechanical failure.
+
+By contrast, General Relativity (GR) couples gravity to the stress-energy tensor, which includes the relativistic mass-energy (γm). This is why GR predicts a smooth transition to the Eddington limit for light. Consequently, the deflection of highly relativistic massive particles serves as a definitive experimental test: it determines whether gravity physically couples to invariant rest mass (Cameron) or to the relativistic stress-energy tensor (GR). Both are internally consistent applications of Special Relativity, but they make radically diverging, testable physical predictions as v→c.
 ### 3. Perihelion Precession and the 3:2:1 Ratio
 
 For slow-moving planetary bodies like Mercury ($v \approx 48$ km/s), the $M_{eff}$ coupling heuristic provides the baseline thermodynamic correction to the central potential. However, the total anomalous perihelion advance of exactly 43.00 arcseconds per century is not a monolithic effect. 
