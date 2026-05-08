@@ -54,4 +54,4 @@ Neutrino Decoupling: Defined as an imaginary sector information snapshot.
 
 Nuclear Binding Events: The energy released during nucleon formation is strictly classified as nuclear condensation radiation.
 
-**See [phase_kinetics.m](phase_kinetics.m) for the complete computation script.**
+See phase_kinetics.m (or the included .wl / .nb Mathematica files) for the complete computation scripts.
