@@ -1,6 +1,6 @@
 # Phase Kinetics: The SO(3,3) Fluid Metric Architecture
 
-**Current Version:** v2.3.1  
+**Current Version:** v3.1  
 **Status:** Formal Mathematical Derivations & Theoretical Framework
 
 ---
