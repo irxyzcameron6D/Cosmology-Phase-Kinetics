@@ -88,27 +88,27 @@ This was observationally confirmed on August 17, 2017, during the GW170817 neutr
 In standard Quantum Mechanics, intrinsic spin and the Pauli Exclusion Principle are treated as abstract postulates. In the Phase Kinetics framework, they are natively derived from the SO(3,3) complex geometry and the Phase-Metric Velocity (PMV) bivector.
 
 ### The PMV Bivector and the 720° Requirement
-A spin-1/2 particle in the 6D metric is a bivector—a directed area element spanning one Real dimension (the P_re direction of travel) and one Imaginary dimension (the P_im direction). 
+A spin-1/2 particle in the 6D metric is a bivector—a directed area element spanning one Real dimension (the P<sub>re</sub> direction of travel) and one Imaginary dimension (the P<sub>im</sub> direction). 
 
-When the particle rotates by 360° (2π) in real space, P_re completes a full 2π rotation. However, because P_im exists in the orthogonal imaginary sector, it does not rotate. As a result, the phase of the bivector itself rotates by only 180° (π). The wavefunction therefore picks up a phase factor of e^(iπ) = -1. A second full real-space rotation is required (totaling 4π or 720°) for the bivector phase to complete 2π, returning the wavefunction to e^(i2π) = +1. The spin-1/2 requirement is thus a direct derivation of the two-sector geometry.
+When the particle rotates by 360° (2π) in real space, P<sub>re</sub> completes a full 2π rotation. However, because P<sub>im</sub> exists in the orthogonal imaginary sector, it does not rotate. As a result, the phase of the bivector itself rotates by only 180° (π). The wavefunction therefore picks up a phase factor of e^(iπ) = -1. A second full real-space rotation is required (totaling 4π or 720°) for the bivector phase to complete 2π, returning the wavefunction to e^(i2π) = +1. The spin-1/2 requirement is thus a direct derivation of the two-sector geometry.
 
 ### The Feynman Cup Dance Reinterpreted
 This 6D bivector geometry provides the exact physical mechanism behind Feynman's "cup dance" (or Dirac's belt trick), translating it from a mathematical analogy into a literal geometric description:
-* **The Cup** is P_re (the real sector, rotating and observable).
-* **The Hand** is P_im (the imaginary sector, fixed and invariant).
+* **The Cup** is P<sub>re</sub> (the real sector, rotating and observable).
+* **The Hand** is P<sub>im</sub> (the imaginary sector, fixed and invariant).
 * **The Ribbons** represent the phase coupling between the real and imaginary sectors.
 
-Crucially, P_im is fixed because it represents the invariant rest mass (mc). It cannot be dragged or twisted because it lives strictly in imaginary space, which is orthogonal to real-space rotations. The "tangle" of the ribbons is simply the phase mismatch generated when rotating P_re against a geometrically fixed P_im.
+Crucially, P<sub>im</sub> is fixed because it represents the invariant rest mass (mc). It cannot be dragged or twisted because it lives strictly in imaginary space, which is orthogonal to real-space rotations. The "tangle" of the ribbons is simply the phase mismatch generated when rotating P<sub>re</sub> against a geometrically fixed P<sub>im</sub>.
 
 ### Quark Spin Pairing and the Proton Spin Puzzle
-Inside a nucleon, each quark possesses an intrinsic spin defined by the cross product of its PMV vectors: P_re × P_im = (ℏ/2)n̂ (where n̂ is the unit normal to the bivector plane). In a proton containing three quarks (uud), two of these quarks pair their cross products antiparallel, mathematically canceling each other out. The third quark remains unpaired, contributing the total nucleon baseline spin of ℏ/2.
+Inside a nucleon, each quark possesses an intrinsic spin defined by the cross product of its PMV vectors: P<sub>re</sub> × P<sub>im</sub> = (ℏ/2)n̂ (where n̂ is the unit normal to the bivector plane). In a proton containing three quarks (uud), two of these quarks pair their cross products antiparallel, mathematically canceling each other out. The third quark remains unpaired, contributing the total nucleon baseline spin of ℏ/2.
 
 This geometry natively resolves the 1987 EMC experiment (the "Proton Spin Puzzle"), which revealed that only ~30% of a proton's total spin comes from the intrinsic spin of its quarks. While standard Quantum Chromodynamics (QCD) postulates an abstract "gluon spin" to account for the remainder, Phase Kinetics derives it kinematically. The remaining 70% resides in the Zitterbewegung orbital angular momentum (L = r × p) of the quarks physically orbiting at 0.99c inside the nucleon. 
 
 ### The Pauli Exclusion Principle from 6D Geometry
 Because the particle bivector must span the imaginary axis, its orientation within the imaginary sector is strictly binary: it can only point in the +n̂ direction (spin-up) or the -n̂ direction (spin-down). 
 
-Therefore, no two identical fermions can occupy the exact same real-sector quantum state. If one takes the +n̂ orientation and the other takes the -n̂ orientation, the geometric capacity of the imaginary sector at that real spatial coordinate is completely exhausted. A third identical fermion cannot be added because there is no third orthogonal orientation available along the P_im axis. The Pauli Exclusion Principle is thus derived entirely from the rigid geometric limits of the 6D metric, not from a quantum postulate.
+Therefore, no two identical fermions can occupy the exact same real-sector quantum state. If one takes the +n̂ orientation and the other takes the -n̂ orientation, the geometric capacity of the imaginary sector at that real spatial coordinate is completely exhausted. A third identical fermion cannot be added because there is no third orthogonal orientation available along the P<sub>im</sub> axis. The Pauli Exclusion Principle is thus derived entirely from the rigid geometric limits of the 6D metric, not from a quantum postulate.
 
 ---
 
