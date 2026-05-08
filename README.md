@@ -42,6 +42,6 @@ Researchers and reviewers are encouraged to begin with the `phase_kinetics.md` f
 
 Please ensure you are viewing the latest **v2.3.1** release for the most mathematically rigorous and conceptually unified presentation of the framework.
 
-# **See [phase_kinetics.m](phase_kinetics.m) for the complete computation script.**
+**See [phase_kinetics.m](phase_kinetics.m) for the complete computation script.**
 
 
