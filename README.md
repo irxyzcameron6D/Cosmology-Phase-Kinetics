@@ -1,28 +1,27 @@
 Phase Kinetics: The SO(3,3) Fluid Metric Architecture
-
 Current Version: v2.3.1
 Status: Formal Mathematical Derivations & Theoretical Framework
 
 Abstract
-
 The Phase Kinetics framework is a foundational architectural model that bridges the macroscopic orbital mechanics of General Relativity with the localized boundary conditions of Quantum Mechanics. By replacing the standard 4D spacetime vacuum with a 6D SO(3,3) thermodynamic fluid metric (containing 3 Real and 3 Imaginary dimensions), Phase Kinetics derives core quantum and relativistic phenomena natively from geometric topology and fluid kinematics, rather than relying on abstract postulates.
 
 🚀 Key Theoretical Breakthroughs
-
 This repository contains mathematical derivations demonstrating that Phase Kinetics natively derives or resolves several major anomalies in standard physics:
 
 The Proton Spin Puzzle (1987 EMC Experiment): Derives the "missing" 70% of proton spin kinematically through the macroscopic Zitterbewegung orbital angular momentum of quarks at 0.99c, eliminating the need for postulated "gluon spin."
 
 The Pauli Exclusion Principle: Proves that the Pauli limit is not a quantum rule, but a strict geometric constraint of the Imaginary sector axis having only two available orthogonal orientations (+n̂ and -n̂).
 
-The Local CMB Speedometer: Provides a purely local thermodynamic formula [ β = (R - 1) / (R + 1) ] to calculate absolute velocity relative to the CMB rest frame using asymmetric hull pressure, differentiating physical fluid compression from the optical Penrose-Terrell effect.
+The Local CMB Speedometer: Provides a purely local thermodynamic formula
+
+β=(R−1)/(R+1)
+to calculate absolute velocity relative to the CMB rest frame using asymmetric hull pressure, differentiating physical fluid compression from the optical Penrose-Terrell effect.
 
 Relativistic Beam Deflection Discontinuity: Derives that gravity couples to invariant rest mass (Im(Q) = m√G), predicting that massive neutral particle deflection approaches zero as β → 1 while photons retain the Eddington value — a hard discontinuity absent from General Relativity and testable by experiment.
 
 The Perihelion of Mercury (3:2:1 Ratio): Derives the exact 43.00 arcseconds/century anomalous precession by decomposing it into a strict 3:2:1 mathematical ratio of Binet spatial curvature, thermodynamic mass variance, and gravitomagnetic coupling.
 
 📚 Table of Contents (phase_kinetics.md)
-
 The formal mathematical derivations are located in the phase_kinetics.md file, structured as follows:
 
 I. Introduction to the SO(3,3) Metric: Defining the Real and Imaginary domains.
@@ -44,7 +43,6 @@ VIII. Relativistic Thermodynamics and the Hull Speedometer: Extracting local vel
 IX. Early Universe Topology & Radiation Signatures: The thermodynamic evolution of the early metric.
 
 📖 Note on Cosmological Terminology
-
 To ensure strict adherence to the thermodynamic and geometric principles of the SO(3,3) metric, reviewers should note the following formalized Phase Kinetics vocabulary used throughout this framework:
 
 Cosmic Microwave Background (CMB): Defined strictly as thermal decoupling radiation (representing maximum entropy and thermal incoherence).
