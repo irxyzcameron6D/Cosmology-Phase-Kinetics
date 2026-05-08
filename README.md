@@ -44,130 +44,56 @@ Please ensure you are viewing the latest **v2.3.1** release for the most mathema
 
 ## Appendix A: Phase Kinetics Mathematica Computation (.nb)
 
-(* ====================================================================*)(*P\
-HASE KINETICS:\
-MASTER COMPUTATION NOTEBOOK*)(*Unification of Quantum Topology and Mac\
-roscopic Gravity*)(* \
-====================================================================*)\
-ClearAll["Global`*"]
+### Mathematica Computational Models
 
-(*1. Fundamental Constants& Baseline Parameters*)
-c = 299792458; (*Speed of light,m/s*)
-G = 6.67430*10^-11; (*Emergent Gravitational Constant,N(m/kg)^2*)
-hbar = 1.0545718*10^-34; (*Reduced Planck constant,J s*)
-kb = 1.380649*10^-23; (*Boltzmann constant,J/K*)
+The core derivations of Phase Kinetics can be computationally verified using the following Wolfram Language models.
 
-(* ====================================================================*)
-(*SECTION I:The Complex Energy Wave& Q Complex Directionality*)
-(*Demonstrating (+i)^2=-1 (Universal Attraction)*)
-(* ====================================================================*)
-
-PhaseForce[q_, m_, r_] := (1/r^2)*(q^2 - G*m^2 + 2*I*q*m*Sqrt[G]);
-
-RealForce[q_, m_, r_] := ComplexExpand[Re[PhaseForce[q, m, r]]];
-ImaginaryShear[q_, m_, r_] := ComplexExpand[Im[PhaseForce[q, m, r]]];
-
-Print["Plotting Transverse Phase-Shear at Nucleon Scale:"]
-Manipulate[
- Plot[ImaginaryShear[1.6*10^-19, mass, r], {r, 10^-16, 10^-14}, 
-  PlotRange -> All, PlotStyle -> {Thick, Red}, 
-  AxesLabel -> {"Distance (m)", "Phase-Shear Magnitude"}, 
-  PlotLabel -> 
-   "Strong Force Tension Engine (Femtometer Scale)"], {{mass, 
-   1.67*10^-27, "Nucleon Mass (kg)"}, 10^-28, 10^-26}]
-
-(* ====================================================================*)
-(*SECTION II:Baryonic Attenuation (Dark Matter Solution)*)
-(*Resolving Flat Rotation Curves via R^-2 Density Profile*)
-(* ====================================================================*)
-
-(*To yield a flat rotation curve,the ISM density must scale as R^-2*)
-rhoISM[R_, rho0_, Rscale_] := rho0*(Rscale/R)^2;
-
-(*Integrating 4*Pi*r^2*\
-rhoISM from 0 to R yields an enclosed mass proportional to R*)
-EnclosedISMMass[R_, rho0_, Rscale_] := 4*Pi*rho0*Rscale^2*R;
-EnclosedBaryonMass[R_, Mbulge_] := Mbulge*(1 - Exp[-R/10^20]);
-
-VelocityCurve[R_, Mbulge_, rho0_, Rscale_] := 
-  Sqrt[G*(EnclosedBaryonMass[R, Mbulge] + 
-       EnclosedISMMass[R, rho0, Rscale])/R];
-
-Print["Galactic Rotation Curve: Standard Baryons vs Baryonic \
-Attenuation Medium"]
-Manipulate[
- Plot[{Sqrt[G*EnclosedBaryonMass[R, Mbulge]/R], 
-   VelocityCurve[R, Mbulge, rho0, Rscale]}, {R, 10^18, 10^21}, 
-  PlotRange -> {0, 300000}, 
-  PlotLegends -> {"Newtonian (Vacuum)", 
-    "Phase Kinetics (Attenuation Medium)"}, 
-  AxesLabel -> {"Radius (m)", "Orbital Velocity (m/s)"}, 
-  PlotStyle -> {{Thick, Dashed, Gray}, {Thick, Blue}}], {{Mbulge, 
-   10^41, "Central Bulge Mass (kg)"}, 10^40, 
-  10^42}, {{rho0, 10^-21, "Base ISM Density (kg/m^3)"}, 10^-23, 
-  10^-19}, {{Rscale, 10^20, "Scale Radius (m)"}, 10^19, 10^21}]
-
-(* ====================================================================*)
-(*SECTION III:Annihilation Surface Thermodynamics (Black Holes)*)
-(* ====================================================================*)
-
-SchwarzschildRadius[M_] := (2*G*M)/c^2;
-SCBTemperature[M_] := (hbar*c^3)/(8*Pi*G*kb*M);
-
-Print["Black Hole Kinetic Exhaust: Temperature vs Boundary Geometric \
-Curvature"]
-LogLogPlot[SCBTemperature[M], {M, 10^10, 10^35}, PlotRange -> All, 
- PlotStyle -> {Thick, Purple}, Frame -> True, 
- FrameLabel -> {"Mass of Black Hole (kg)", 
-   "SCB Scatter Temperature (K)"}, 
- PlotLabel -> "Hawking Exhaust via 2D Phase Cancellation"]
-
-(* ====================================================================*)
-(*SECTION:Relativistic Thermodynamics-The Hull Speedometer*)
-(* ====================================================================*)
+**1. The Hull Speedometer**
+```mathematica
+(* SECTION: Relativistic Thermodynamics - The Hull Speedometer *)
 ClearAll[R, \[Beta]];
 
-(*The Temperature Ratio Equation*)
+(* The Temperature Ratio Equation *)
 R[\[Beta]_] := (1 + \[Beta])/(1 - \[Beta]);
 
-(*Plotting the ratio as velocity approaches c*)
-Plot[R[\[Beta]], {\[Beta], 0, 0.99}, PlotRange -> All, 
- PlotStyle -> {Thick, Blue}, 
- AxesLabel -> {"Velocity (\[Beta] = v/c)", "Temperature Ratio (R)"}, 
- PlotLabel -> "Hull Speedometer: Forward vs Aft Temperature", 
+(* Plotting the ratio as velocity approaches c *)
+Plot[R[\[Beta]], {\[Beta], 0, 0.99}, 
+ PlotRange -> All,
+ PlotStyle -> {Thick, Blue},
+ AxesLabel -> {"Velocity (\[Beta] = v/c)", "Temperature Ratio (R)"},
+ PlotLabel -> "Hull Speedometer: Forward vs Aft Temperature",
  GridLines -> Automatic]
 
-(*Solve for exactly 0.99c to show the massive differential*)
+(* Solve for exactly 0.99c to show the massive differential *)
 Print["Temperature Ratio (R) at 0.99c: ", R[0.99]]
-(* ====================================================================*)
-(*SECTION:The Discontinuity of Relativistic Deflection*)
+```
+
+**2. The Deflection Discontinuity**
+```mathematica
+(* SECTION: The Discontinuity of Relativistic Deflection *)
 ClearAll[alphaCameron, \[Beta]];
-(* ====================================================================*)
 
-(*Normalized Cameron Deflection Formula for Massive Particles*)
-(*We normalize the 2GM/(bc^\
-2) constant to 1 to focus purely on the velocity curve*)
-alphaCameron[\[Beta]_] := ((1 + \[Beta]^2)*
-     Sqrt[1 - \[Beta]^2])/\[Beta]^2;
+(* Normalized Cameron Deflection Formula for Massive Particles *)
+alphaCameron[\[Beta]_] := ((1 + \[Beta]^2) * Sqrt[1 - \[Beta]^2]) / \[Beta]^2;
 
-(*Plotting the deflection drop-off as momentum diverges*)
-Plot[alphaCameron[\[Beta]], {\[Beta], 0.01, 0.999}, 
- PlotRange -> {0, 3}, PlotStyle -> {Thick, Red}, 
- AxesLabel -> {"Velocity (\[Beta] = v/c)", 
-   "Normalized Deflection Angle (\[Alpha])"}, 
- PlotLabel -> 
-  "Phase Kinetics Deflection: Drop to Zero for Massive Particles", 
+(* Plotting the deflection drop-off as momentum diverges *)
+Plot[alphaCameron[\[Beta]], {\[Beta], 0.01, 0.999},
+ PlotRange -> {0, 3},
+ PlotStyle -> {Thick, Red},
+ AxesLabel -> {"Velocity (\[Beta] = v/c)", "Normalized Deflection Angle (\[Alpha])"},
+ PlotLabel -> "Phase Kinetics Deflection: Drop to Zero for Massive Particles",
  GridLines -> Automatic]
-(* ====================================================================*)
-(*SECTION:Mercury Perihelion Advance (3:2:1 Component Breakdown)*)
-(* ====================================================================*)
+```
+
+**3. Mercury Perihelion Advance (3:2:1 Ratio)**
+```mathematica
+(* SECTION: Mercury Perihelion Advance (3:2:1 Component Breakdown) *)
 ClearAll[omegaKin, omegaTherm, omegaGrav, omegaTotal];
 
-(*Normalized calculation demonstrating the 3:2:1 structural ratio*)
-(*Values represent arcseconds per century*)
-omegaKin = 21.50;  (*3\[Pi] Binet Spatial Curvature*)
-omegaTherm = 14.33; (*2\[Pi] Thermodynamic Coupling M_eff*)
-omegaGrav = 7.17;   (*1\[Pi] Gravitomagnetic Frame-Dragging*)
+(* Normalized calculation demonstrating the 3:2:1 structural ratio *)
+omegaKin = 21.50;  (* 3\[Pi] Binet Spatial Curvature *)
+omegaTherm = 14.33; (* 2\[Pi] Thermodynamic Coupling M_eff *)
+omegaGrav = 7.17;   (* 1\[Pi] Gravitomagnetic Frame-Dragging *)
 
 omegaTotal = omegaKin + omegaTherm + omegaGrav;
 
@@ -177,5 +103,77 @@ Print["Thermodynamic Coupling (2/6): ", omegaTherm];
 Print["Gravitomagnetic Shear (1/6): ", omegaGrav];
 Print["--------------------------------------------"];
 Print["Total Anomalous Precession: ", omegaTotal, " arcsec/cy"];
+```
+(* ==================================================================== *)
+(* PHASE KINETICS: MASTER COMPUTATION NOTEBOOK                          *)
+(* Unification of Quantum Topology and Macroscopic Gravity              *)
+(* ==================================================================== *)
 
+ClearAll["Global`*"]
 
+(* 1. Fundamental Constants & Baseline Parameters *)
+c = 299792458; (* Speed of light, m/s *)
+G = 6.67430*10^-11; (* Emergent Gravitational Constant, N(m/kg)^2 *)
+hbar = 1.0545718*10^-34; (* Reduced Planck constant, J s *)
+kb = 1.380649*10^-23; (* Boltzmann constant, J/K *)
+
+(* ==================================================================== *)
+(* SECTION I: The Complex Energy Wave & Q Complex Directionality        *)
+(* Demonstrating (+i)^2 = -1 (Universal Attraction)                     *)
+(* ==================================================================== *)
+
+PhaseForce[q_, m_, r_] := (1/r^2)*(q^2 - G*m^2 + 2*I*q*m*Sqrt[G]);
+
+RealForce[q_, m_, r_] := ComplexExpand[Re[PhaseForce[q, m, r]]];
+ImaginaryShear[q_, m_, r_] := ComplexExpand[Im[PhaseForce[q, m, r]]];
+
+Print["Plotting Transverse Phase-Shear at Nucleon Scale:"]
+Manipulate[
+ Plot[ImaginaryShear[1.6*10^-19, mass, r], {r, 10^-16, 10^-14}, 
+  PlotRange -> All, 
+  PlotStyle -> {Thick, Red}, 
+  AxesLabel -> {"Distance (m)", "Phase-Shear Magnitude"}, 
+  PlotLabel -> "Strong Force Tension Engine (Femtometer Scale)"], 
+ {{mass, 1.67*10^-27, "Nucleon Mass (kg)"}, 10^-28, 10^-26}]
+
+(* ==================================================================== *)
+(* SECTION II: Baryonic Attenuation (Dark Matter Solution)              *)
+(* Resolving Flat Rotation Curves via R^-2 Density Profile              *)
+(* ==================================================================== *)
+
+(* To yield a flat rotation curve, the ISM density must scale as R^-2 *)
+rhoISM[R_, rho0_, Rscale_] := rho0*(Rscale/R)^2;
+
+(* Integrating 4*Pi*r^2*rhoISM from 0 to R yields an enclosed mass proportional to R *)
+EnclosedISMMass[R_, rho0_, Rscale_] := 4*Pi*rho0*Rscale^2*R;
+EnclosedBaryonMass[R_, Mbulge_] := Mbulge*(1 - Exp[-R/10^20]);
+
+VelocityCurve[R_, Mbulge_, rho0_, Rscale_] := 
+  Sqrt[G*(EnclosedBaryonMass[R, Mbulge] + EnclosedISMMass[R, rho0, Rscale])/R];
+
+Print["Galactic Rotation Curve: Standard Baryons vs Baryonic Attenuation Medium"]
+Manipulate[
+ Plot[{Sqrt[G*EnclosedBaryonMass[R, Mbulge]/R], 
+   VelocityCurve[R, Mbulge, rho0, Rscale]}, {R, 10^18, 10^21}, 
+  PlotRange -> {0, 300000}, 
+  PlotLegends -> {"Newtonian (Vacuum)", "Phase Kinetics (Attenuation Medium)"}, 
+  AxesLabel -> {"Radius (m)", "Orbital Velocity (m/s)"}, 
+  PlotStyle -> {{Thick, Dashed, Gray}, {Thick, Blue}}], 
+ {{Mbulge, 10^41, "Central Bulge Mass (kg)"}, 10^40, 10^42}, 
+ {{rho0, 10^-21, "Base ISM Density (kg/m^3)"}, 10^-23, 10^-19}, 
+ {{Rscale, 10^20, "Scale Radius (m)"}, 10^19, 10^21}]
+
+(* ==================================================================== *)
+(* SECTION III: Annihilation Surface Thermodynamics (Black Holes)       *)
+(* ==================================================================== *)
+
+SchwarzschildRadius[M_] := (2*G*M)/c^2;
+SCBTemperature[M_] := (hbar*c^3)/(8*Pi*G*kb*M);
+
+Print["Black Hole Kinetic Exhaust: Temperature vs Boundary Geometric Curvature"]
+LogLogPlot[SCBTemperature[M], {M, 10^10, 10^35}, 
+ PlotRange -> All, 
+ PlotStyle -> {Thick, Purple}, 
+ Frame -> True, 
+ FrameLabel -> {"Mass of Black Hole (kg)", "SCB Scatter Temperature (K)"}, 
+ PlotLabel -> "Hawking Exhaust via 2D Phase Cancellation"]
