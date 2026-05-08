@@ -1,12 +1,14 @@
-PHASE KINETICS: THE SO(3,3) FLUID METRIC ARCHITECTURE
+Phase Kinetics: The SO(3,3) Fluid Metric Architecture
 
 Current Version: v2.3.1
 Status: Formal Mathematical Derivations & Theoretical Framework
 
-ABSTRACT
+Abstract
+
 The Phase Kinetics framework is a foundational architectural model that bridges the macroscopic orbital mechanics of General Relativity with the localized boundary conditions of Quantum Mechanics. By replacing the standard 4D spacetime vacuum with a 6D SO(3,3) thermodynamic fluid metric (containing 3 Real and 3 Imaginary dimensions), Phase Kinetics derives core quantum and relativistic phenomena natively from geometric topology and fluid kinematics, rather than relying on abstract postulates.
 
-KEY THEORETICAL BREAKTHROUGHS
+🚀 Key Theoretical Breakthroughs
+
 This repository contains mathematical derivations demonstrating that Phase Kinetics natively derives or resolves several major anomalies in standard physics:
 
 The Proton Spin Puzzle (1987 EMC Experiment): Derives the "missing" 70% of proton spin kinematically through the macroscopic Zitterbewegung orbital angular momentum of quarks at 0.99c, eliminating the need for postulated "gluon spin."
@@ -19,20 +21,30 @@ Relativistic Beam Deflection Discontinuity: Derives that gravity couples to inva
 
 The Perihelion of Mercury (3:2:1 Ratio): Derives the exact 43.00 arcseconds/century anomalous precession by decomposing it into a strict 3:2:1 mathematical ratio of Binet spatial curvature, thermodynamic mass variance, and gravitomagnetic coupling.
 
-TABLE OF CONTENTS (phase_kinetics.md)
+📚 Table of Contents (phase_kinetics.md)
+
 The formal mathematical derivations are located in the phase_kinetics.md file, structured as follows:
 
 I. Introduction to the SO(3,3) Metric: Defining the Real and Imaginary domains.
+
 II. Phase-Metric Velocity (PMV): The rotation of the velocity vector into the Imaginary phase.
+
 III. The Local Lagrangian: Deriving kinetic energy as fluid metric shear.
+
 IV. The Strong Force as a Boundary Layer: Formulating nuclear binding as a complex-phase van der Waals force at the dJ² = 0 boundary.
+
 V. Spin, Quark Pairing, and the Pauli Exclusion Principle: Natively deriving quantum spin-1/2 from bivector topology and resolving the Proton Spin Puzzle.
+
 VI. Weak Decay and Imaginary Phase Transitions: The geometry of neutron-to-proton decay.
+
 VII. Relativistic Trajectories and Orbital Kinematics: The Mercury perihelion advance and the Eddington limit for light.
+
 VIII. Relativistic Thermodynamics and the Hull Speedometer: Extracting local velocity from asymmetric CMB fluid pressure.
+
 IX. Early Universe Topology & Radiation Signatures: The thermodynamic evolution of the early metric.
 
-NOTE ON COSMOLOGICAL TERMINOLOGY
+📖 Note on Cosmological Terminology
+
 To ensure strict adherence to the thermodynamic and geometric principles of the SO(3,3) metric, reviewers should note the following formalized Phase Kinetics vocabulary used throughout this framework:
 
 Cosmic Microwave Background (CMB): Defined strictly as thermal decoupling radiation (representing maximum entropy and thermal incoherence).
